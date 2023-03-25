@@ -1,0 +1,39 @@
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    all:unset;
+    background-color: #4CAF50; /* Green */
+    border: 1px;
+    border-radius: 1px;
+    color: white;
+    padding: 15px 32px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+span {
+    display: inline-block; /* makes the span behave like a block-level element */
+    height: 100px; /* set the height to 100 pixels */
+    font-size: xx-large;
+    font-weight: 500;
+    font-stretch: expanded;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 4px;
+    height: 50px;
+}
